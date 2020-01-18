@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-
 {% load staticfiles %}
 
 <html>
     <head>
         <title>Rango</title>
     </head>
-
     <body>
         <h1>Rango says...</h1>
         <div>
-            hey there partner! <br />
+            here is the about page.<br />
             <strong>{{ boldmessage }}</strong><br />
         </div>
         <div>
             <a href="/rango/about">About</a><br />
-            <img src="{%static 'images/catwalk.jpg' %}" alt="Picture of a cat walking."/>
+            <img src="{%static 'images/catwalk.jpg' %}" alt="Picture of a cat walking"/>
+            <img src="/media/cat.jpg" alt="Picture of a Cat."/>
         </div>
     </body>
 </html>
