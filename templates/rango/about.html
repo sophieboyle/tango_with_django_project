@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<!-- Allows usage of static files -->
 {% load staticfiles %}
 
 <html>
@@ -12,9 +14,9 @@
             <strong>{{ boldmessage }}</strong><br />
         </div>
         <div>
-            <a href="/rango/about">About</a><br />
-            <img src="{%static 'images/rango.jpg' %}" alt="Picture of Rango"/>
-            <img src="/media/cat.jpg" alt="Picture of a Cat."/>
+            <a href="/rango/about/">About</a><br />
+            <img src="{%static 'images/rango.jpg' %}" alt="Picture of Rango" />
+            <img src="/media/cat.jpg" alt="Picture of a Cat" />
         </div>
     </body>
 </html>
