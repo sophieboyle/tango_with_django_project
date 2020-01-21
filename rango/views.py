@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from rango.models import Category
+from rango.models import Category, Page
 
 def index(request):
     # Gets top five categories
